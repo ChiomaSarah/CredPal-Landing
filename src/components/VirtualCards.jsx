@@ -7,7 +7,7 @@ const VirtualCards = () => {
     <section className="container">
       <div className=" d-flex justify-content-center align-items-center vh-100 px-5">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-7 mb-4">
             <h1>Virtual Cards</h1>
             <p>
               Create a virtual credit or cash card, make secure online
@@ -17,13 +17,17 @@ const VirtualCards = () => {
               control over your spending.
             </p>
             <div>
-              <button type="button" className="btn btn-primary">
+              <button
+                type="button"
+                className="btn btn-primary"
+                style={{ borderRadius: "90px", padding: "16px 24px" }}
+              >
                 Download App
               </button>
             </div>
           </div>
-          <div className="col-md-6">
-            <img src={virtual} alt="VirtualCards" />
+          <div className="col-md-5">
+            <img src={virtual} alt="VirtualCards" className="img-fluid" />
           </div>
         </div>
       </div>

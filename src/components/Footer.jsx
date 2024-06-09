@@ -4,11 +4,9 @@ import "../App.css";
 
 const Footer = () => {
   return (
-    <section className="container">
-      <div className=" d-flex justify-content-center align-items-center vh-100 px-5">
-        <div>
-          <img src={footer} alt="page footer" />
-        </div>
+    <section className="container-fluid p-0">
+      <div className="vh-100 d-flex align-items-end">
+        <img src={footer} alt="page footer" className="img-fluid w-100" />
       </div>
     </section>
   );
